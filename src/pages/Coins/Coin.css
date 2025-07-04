@@ -1,0 +1,48 @@
+.spinner{
+    display: grid;
+    place-self: center;
+    min-height: 80vh;
+
+}
+.spin{
+    width: 60px;   
+    height: 60px;
+    place-self: center;
+    border: 5px solid #bdbdbd;
+    border-top-color: #4500c6;
+    border-radius: 50%;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+
+    
+}
+.Coin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+}
+.coin-name{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.coin-chart{
+    width: 80%
+}
+.coin-name img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

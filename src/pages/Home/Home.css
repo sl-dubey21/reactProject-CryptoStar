@@ -1,0 +1,96 @@
+.home{
+    padding: 2px 10px ;
+    padding-bottom: 100px;
+}
+.hero{
+    max-width: 600px;
+    margin: 80px auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.hero h1{
+    font-family: "Montserrat",sans-serif;
+    font-size: 3.03rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.hero p{
+    width: 80%;
+    font-size: 1rem;
+    line-height: 2
+}
+.hero form{
+    width: 80%;
+    background: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.hero input{
+    
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 8px;
+    border: none;
+}
+.hero input:active,
+.hero input:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.hero button{
+    padding: 8px 12px;
+    border-radius: 7px;
+    background-color: rgb(104, 27, 181);
+    color: white;
+    height: 100%;
+    cursor: pointer;
+}
+
+.crypto-table{
+    max-width: 900px;
+    margin:auto;
+    background:linear-gradient(rgba(84,3,255,.15),rgba(105,2,153,.15));
+    border-radius: 15px;
+}
+.table{
+    display: grid;
+    grid-template-columns: .5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 20px;
+    align-items: center;
+    border-bottom:  1px solid  #444444;
+}
+.coin-image{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.coin-image img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.table:last-child{
+    border:none;
+}
+.table .green{
+    color: green;
+    text-align: center;
+
+}
+.table .red{
+    color: red;
+    text-align: center;
+} 

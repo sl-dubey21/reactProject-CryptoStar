@@ -1,0 +1,65 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    padding: 20px 40px;
+    border-bottom: .5px solid grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.nav-left{
+    font-size: 1.3rem;
+
+}
+.nav-left h2{
+    font-weight: 500;
+}
+.nav-links{
+    width: 25%;
+    
+}
+ul{
+    font-size:1.3rem;
+    gap: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.nav-right select{
+    padding: 8px 12px;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color:white;
+
+    color: black;
+    overflow: hidden;
+}
+.nav-right option{
+    border-radius: 7px;
+    padding: 8px 12px;
+    
+}
+.nav-right button{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
